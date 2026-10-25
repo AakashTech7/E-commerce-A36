@@ -1,0 +1,680 @@
+!SESSION 2026-10-24 07:39:08.713 -----------------------------------------------
+eclipse.buildId=4.41.0.20260903-0719
+java.version=25.0.4.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\Aakash Nishad\Downloads\E-commerce
+
+!ENTRY ch.qos.logback.classic 1 0 2026-10-24 07:39:12.305
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-10-24 07:39:13.520
+!MESSAGE Logback config file: C:\Users\Aakash Nishad\Downloads\E-commerce\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.201.20260831-2044.xml
+
+!ENTRY org.eclipse.terminal.view.ui 2 0 2026-10-24 07:39:14.191
+!MESSAGE Join was called on job "Detect WSL Instances" while JobManager is suspended, this will not work as expected!
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:1014)
+	at org.eclipse.core.internal.jobs.InternalJob.join(InternalJob.java:363)
+	at org.eclipse.core.runtime.jobs.Job.join(Job.java:601)
+	at org.eclipse.terminal.view.ui.internal.local.showin.detectors.DetectWSL.getEntries(DetectWSL.java:79)
+	at org.eclipse.terminal.view.ui.internal.local.showin.detectors.DetectWSL.hasEntries(DetectWSL.java:49)
+	at org.eclipse.terminal.view.ui.internal.local.showin.ExternalExecutablesManager.hasEntries(ExternalExecutablesManager.java:68)
+	at org.eclipse.terminal.view.ui.internal.ExternalExecutablesState.<init>(ExternalExecutablesState.java:29)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:236)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:1034)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:286)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:65)
+	at org.eclipse.ui.internal.services.WorkbenchServiceRegistry.getSourceProviders(WorkbenchServiceRegistry.java:168)
+	at org.eclipse.ui.internal.services.SourceProviderService.readRegistry(SourceProviderService.java:104)
+	at org.eclipse.ui.internal.Workbench$33.runWithException(Workbench.java:2487)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:182)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4895)
+	at org.eclipse.ui.internal.StartupThreading.runWithoutExceptions(StartupThreading.java:93)
+	at org.eclipse.ui.internal.Workbench.initializeDefaultServices(Workbench.java:2482)
+	at org.eclipse.ui.internal.Workbench.init(Workbench.java:1766)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2940)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:666)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:193)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-10-24 07:39:19.393
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Aakash Nishad'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2026-10-24 07:47:52.009 -----------------------------------------------
+eclipse.buildId=4.41.0.20260903-0719
+java.version=25.0.4.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\Aakash Nishad\Downloads\E-commerce
+
+!ENTRY ch.qos.logback.classic 1 0 2026-10-24 07:47:57.804
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-10-24 07:47:59.536
+!MESSAGE Logback config file: C:\Users\Aakash Nishad\Downloads\E-commerce\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.201.20260831-2044.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-10-24 07:47:59.907
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-10-24 07:47:59.907
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2026-10-24 07:48:00.238
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-10-24 07:48:00.239
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.terminal.view.ui 2 0 2026-10-24 07:48:00.355
+!MESSAGE Join was called on job "Detect WSL Instances" while JobManager is suspended, this will not work as expected!
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:1014)
+	at org.eclipse.core.internal.jobs.InternalJob.join(InternalJob.java:363)
+	at org.eclipse.core.runtime.jobs.Job.join(Job.java:601)
+	at org.eclipse.terminal.view.ui.internal.local.showin.detectors.DetectWSL.getEntries(DetectWSL.java:79)
+	at org.eclipse.terminal.view.ui.internal.local.showin.detectors.DetectWSL.hasEntries(DetectWSL.java:49)
+	at org.eclipse.terminal.view.ui.internal.local.showin.ExternalExecutablesManager.hasEntries(ExternalExecutablesManager.java:68)
+	at org.eclipse.terminal.view.ui.internal.ExternalExecutablesState.<init>(ExternalExecutablesState.java:29)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:236)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:1034)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:286)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:65)
+	at org.eclipse.ui.internal.services.WorkbenchServiceRegistry.getSourceProviders(WorkbenchServiceRegistry.java:168)
+	at org.eclipse.ui.internal.services.SourceProviderService.readRegistry(SourceProviderService.java:104)
+	at org.eclipse.ui.internal.Workbench$33.runWithException(Workbench.java:2487)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:182)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4895)
+	at org.eclipse.ui.internal.StartupThreading.runWithoutExceptions(StartupThreading.java:93)
+	at org.eclipse.ui.internal.Workbench.initializeDefaultServices(Workbench.java:2482)
+	at org.eclipse.ui.internal.Workbench.init(Workbench.java:1766)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2940)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:666)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:193)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-10-24 07:48:04.822
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Aakash Nishad'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-24 09:26:52.901
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-24 09:26:52.903
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-24 09:26:52.904
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-24 09:26:52.905
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-24 09:26:54.252
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-24 09:26:54.253
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-24 09:26:54.253
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-24 09:26:54.254
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-10-24 09:30:36.977
+!MESSAGE DelegatingStreamConnectionProvider - Stopping Boot LS
+!SESSION 2026-10-24 13:27:20.575 -----------------------------------------------
+eclipse.buildId=4.41.0.20260903-0719
+java.version=25.0.4.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-10-24 13:27:25.233
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-10-24 13:27:27.008
+!MESSAGE Logback config file: C:\Users\Aakash Nishad\Downloads\E-commerce\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.201.20260831-2044.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-10-24 13:27:27.477
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-10-24 13:27:27.477
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2026-10-24 13:27:27.866
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-10-24 13:27:27.866
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.terminal.view.ui 2 0 2026-10-24 13:27:28.104
+!MESSAGE Join was called on job "Detect WSL Instances" while JobManager is suspended, this will not work as expected!
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:1014)
+	at org.eclipse.core.internal.jobs.InternalJob.join(InternalJob.java:363)
+	at org.eclipse.core.runtime.jobs.Job.join(Job.java:601)
+	at org.eclipse.terminal.view.ui.internal.local.showin.detectors.DetectWSL.getEntries(DetectWSL.java:79)
+	at org.eclipse.terminal.view.ui.internal.local.showin.detectors.DetectWSL.hasEntries(DetectWSL.java:49)
+	at org.eclipse.terminal.view.ui.internal.local.showin.ExternalExecutablesManager.hasEntries(ExternalExecutablesManager.java:68)
+	at org.eclipse.terminal.view.ui.internal.ExternalExecutablesState.<init>(ExternalExecutablesState.java:29)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:236)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:1034)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:286)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:65)
+	at org.eclipse.ui.internal.services.WorkbenchServiceRegistry.getSourceProviders(WorkbenchServiceRegistry.java:168)
+	at org.eclipse.ui.internal.services.SourceProviderService.readRegistry(SourceProviderService.java:104)
+	at org.eclipse.ui.internal.Workbench$33.runWithException(Workbench.java:2487)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:182)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4895)
+	at org.eclipse.ui.internal.StartupThreading.runWithoutExceptions(StartupThreading.java:93)
+	at org.eclipse.ui.internal.Workbench.initializeDefaultServices(Workbench.java:2482)
+	at org.eclipse.ui.internal.Workbench.init(Workbench.java:1766)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2940)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:666)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:193)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-10-24 13:27:33.317
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Aakash Nishad'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.core 4 0 2026-10-24 13:28:03.928
+!MESSAGE The system cannot find the path specified
+!STACK 0
+java.io.IOException: The system cannot find the path specified
+	at java.base/java.io.WinNTFileSystem.createFileExclusively0(Native Method)
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(WinNTFileSystem.java:542)
+	at java.base/java.io.File.createNewFile(File.java:949)
+	at org.eclipse.jdt.internal.core.index.FileIndexLocation.createNewFile(FileIndexLocation.java:52)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.initialize(DiskIndex.java:438)
+	at org.eclipse.jdt.internal.core.index.Index.<init>(Index.java:246)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.loadMetaIndexIfNeeded(IndexManager.java:1624)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.getMetaIndex(IndexManager.java:1705)
+	at org.eclipse.jdt.internal.core.search.SubTypeSearchJob.getIndexes(SubTypeSearchJob.java:41)
+	at org.eclipse.jdt.internal.core.search.PatternSearchJob.ensureReadyToRun(PatternSearchJob.java:131)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.performConcurrentJob(JobManager.java:268)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.legacySearchAllPossibleSubTypes(IndexBasedHierarchyBuilder.java:578)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.searchAllPossibleSubTypes(IndexBasedHierarchyBuilder.java:479)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.determinePossibleSubTypes(IndexBasedHierarchyBuilder.java:444)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.build(IndexBasedHierarchyBuilder.java:144)
+	at org.eclipse.jdt.internal.core.hierarchy.TypeHierarchy.compute(TypeHierarchy.java:305)
+	at org.eclipse.jdt.internal.core.hierarchy.TypeHierarchy.refresh(TypeHierarchy.java:1263)
+	at org.eclipse.jdt.internal.core.CreateTypeHierarchyOperation.executeOperation(CreateTypeHierarchyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.SourceType.newTypeHierarchy(SourceType.java:953)
+	at org.eclipse.jdt.internal.core.SourceType.newTypeHierarchy(SourceType.java:910)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine.addSubtypes(MainMethodSearchEngine.java:125)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine.searchMainMethods(MainMethodSearchEngine.java:102)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine$1.run(MainMethodSearchEngine.java:162)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+
+!ENTRY org.eclipse.jdt.core 4 0 2026-10-24 13:28:03.944
+!MESSAGE Error filtering index locations based on qualifier.
+!STACK 0
+java.io.IOException: The system cannot find the path specified
+	at java.base/java.io.WinNTFileSystem.createFileExclusively0(Native Method)
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(WinNTFileSystem.java:542)
+	at java.base/java.io.File.createNewFile(File.java:949)
+	at org.eclipse.jdt.internal.core.index.FileIndexLocation.createNewFile(FileIndexLocation.java:52)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.initialize(DiskIndex.java:438)
+	at org.eclipse.jdt.internal.core.index.Index.<init>(Index.java:246)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.loadMetaIndexIfNeeded(IndexManager.java:1624)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.findMatchingIndexNames(IndexManager.java:1541)
+	at org.eclipse.jdt.internal.core.search.IndexSelector.getIndexLocations(IndexSelector.java:307)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.selectIndexURLs(JavaSearchParticipant.java:168)
+	at org.eclipse.jdt.internal.core.search.PatternSearchJob.getIndexes(PatternSearchJob.java:218)
+	at org.eclipse.jdt.internal.core.search.SubTypeSearchJob.getIndexes(SubTypeSearchJob.java:51)
+	at org.eclipse.jdt.internal.core.search.PatternSearchJob.ensureReadyToRun(PatternSearchJob.java:131)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.performConcurrentJob(JobManager.java:268)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.legacySearchAllPossibleSubTypes(IndexBasedHierarchyBuilder.java:578)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.searchAllPossibleSubTypes(IndexBasedHierarchyBuilder.java:479)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.determinePossibleSubTypes(IndexBasedHierarchyBuilder.java:444)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.build(IndexBasedHierarchyBuilder.java:144)
+	at org.eclipse.jdt.internal.core.hierarchy.TypeHierarchy.compute(TypeHierarchy.java:305)
+	at org.eclipse.jdt.internal.core.hierarchy.TypeHierarchy.refresh(TypeHierarchy.java:1263)
+	at org.eclipse.jdt.internal.core.CreateTypeHierarchyOperation.executeOperation(CreateTypeHierarchyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.SourceType.newTypeHierarchy(SourceType.java:953)
+	at org.eclipse.jdt.internal.core.SourceType.newTypeHierarchy(SourceType.java:910)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine.addSubtypes(MainMethodSearchEngine.java:125)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine.searchMainMethods(MainMethodSearchEngine.java:102)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine$1.run(MainMethodSearchEngine.java:162)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+
+!ENTRY org.eclipse.jdt.core 4 0 2026-10-24 13:28:03.946
+!MESSAGE The system cannot find the path specified
+!STACK 0
+java.io.IOException: The system cannot find the path specified
+	at java.base/java.io.WinNTFileSystem.createFileExclusively0(Native Method)
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(WinNTFileSystem.java:542)
+	at java.base/java.io.File.createNewFile(File.java:949)
+	at org.eclipse.jdt.internal.core.index.FileIndexLocation.createNewFile(FileIndexLocation.java:52)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.initialize(DiskIndex.java:438)
+	at org.eclipse.jdt.internal.core.index.Index.<init>(Index.java:246)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.loadMetaIndexIfNeeded(IndexManager.java:1624)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.getMetaIndex(IndexManager.java:1705)
+	at org.eclipse.jdt.internal.core.search.SubTypeSearchJob.getIndexes(SubTypeSearchJob.java:41)
+	at org.eclipse.jdt.internal.core.search.PatternSearchJob.execute(PatternSearchJob.java:141)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.performConcurrentJob(JobManager.java:383)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.legacySearchAllPossibleSubTypes(IndexBasedHierarchyBuilder.java:578)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.searchAllPossibleSubTypes(IndexBasedHierarchyBuilder.java:479)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.determinePossibleSubTypes(IndexBasedHierarchyBuilder.java:444)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.build(IndexBasedHierarchyBuilder.java:144)
+	at org.eclipse.jdt.internal.core.hierarchy.TypeHierarchy.compute(TypeHierarchy.java:305)
+	at org.eclipse.jdt.internal.core.hierarchy.TypeHierarchy.refresh(TypeHierarchy.java:1263)
+	at org.eclipse.jdt.internal.core.CreateTypeHierarchyOperation.executeOperation(CreateTypeHierarchyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.SourceType.newTypeHierarchy(SourceType.java:953)
+	at org.eclipse.jdt.internal.core.SourceType.newTypeHierarchy(SourceType.java:910)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine.addSubtypes(MainMethodSearchEngine.java:125)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine.searchMainMethods(MainMethodSearchEngine.java:102)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine$1.run(MainMethodSearchEngine.java:162)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+
+!ENTRY org.eclipse.jdt.core 4 0 2026-10-24 13:28:03.947
+!MESSAGE Error filtering index locations based on qualifier.
+!STACK 0
+java.io.IOException: The system cannot find the path specified
+	at java.base/java.io.WinNTFileSystem.createFileExclusively0(Native Method)
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(WinNTFileSystem.java:542)
+	at java.base/java.io.File.createNewFile(File.java:949)
+	at org.eclipse.jdt.internal.core.index.FileIndexLocation.createNewFile(FileIndexLocation.java:52)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.initialize(DiskIndex.java:438)
+	at org.eclipse.jdt.internal.core.index.Index.<init>(Index.java:246)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.loadMetaIndexIfNeeded(IndexManager.java:1624)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.findMatchingIndexNames(IndexManager.java:1541)
+	at org.eclipse.jdt.internal.core.search.IndexSelector.getIndexLocations(IndexSelector.java:307)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.selectIndexURLs(JavaSearchParticipant.java:168)
+	at org.eclipse.jdt.internal.core.search.PatternSearchJob.getIndexes(PatternSearchJob.java:218)
+	at org.eclipse.jdt.internal.core.search.SubTypeSearchJob.getIndexes(SubTypeSearchJob.java:51)
+	at org.eclipse.jdt.internal.core.search.PatternSearchJob.execute(PatternSearchJob.java:141)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.performConcurrentJob(JobManager.java:383)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.legacySearchAllPossibleSubTypes(IndexBasedHierarchyBuilder.java:578)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.searchAllPossibleSubTypes(IndexBasedHierarchyBuilder.java:479)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.determinePossibleSubTypes(IndexBasedHierarchyBuilder.java:444)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.build(IndexBasedHierarchyBuilder.java:144)
+	at org.eclipse.jdt.internal.core.hierarchy.TypeHierarchy.compute(TypeHierarchy.java:305)
+	at org.eclipse.jdt.internal.core.hierarchy.TypeHierarchy.refresh(TypeHierarchy.java:1263)
+	at org.eclipse.jdt.internal.core.CreateTypeHierarchyOperation.executeOperation(CreateTypeHierarchyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.SourceType.newTypeHierarchy(SourceType.java:953)
+	at org.eclipse.jdt.internal.core.SourceType.newTypeHierarchy(SourceType.java:910)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine.addSubtypes(MainMethodSearchEngine.java:125)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine.searchMainMethods(MainMethodSearchEngine.java:102)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine$1.run(MainMethodSearchEngine.java:162)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+
+!ENTRY org.eclipse.jface 2 0 2026-10-24 14:13:35.150
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2026-10-24 14:13:35.151
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jdt.core 4 0 2026-10-24 14:16:04.480
+!MESSAGE The system cannot find the path specified
+!STACK 0
+java.io.IOException: The system cannot find the path specified
+	at java.base/java.io.WinNTFileSystem.createFileExclusively0(Native Method)
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(WinNTFileSystem.java:542)
+	at java.base/java.io.File.createNewFile(File.java:949)
+	at org.eclipse.jdt.internal.core.index.FileIndexLocation.createNewFile(FileIndexLocation.java:52)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.initialize(DiskIndex.java:438)
+	at org.eclipse.jdt.internal.core.index.Index.<init>(Index.java:246)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.loadMetaIndexIfNeeded(IndexManager.java:1624)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.getMetaIndex(IndexManager.java:1705)
+	at org.eclipse.jdt.internal.core.search.SubTypeSearchJob.getIndexes(SubTypeSearchJob.java:41)
+	at org.eclipse.jdt.internal.core.search.PatternSearchJob.ensureReadyToRun(PatternSearchJob.java:131)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.performConcurrentJob(JobManager.java:268)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.legacySearchAllPossibleSubTypes(IndexBasedHierarchyBuilder.java:578)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.searchAllPossibleSubTypes(IndexBasedHierarchyBuilder.java:479)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.determinePossibleSubTypes(IndexBasedHierarchyBuilder.java:444)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.build(IndexBasedHierarchyBuilder.java:144)
+	at org.eclipse.jdt.internal.core.hierarchy.TypeHierarchy.compute(TypeHierarchy.java:305)
+	at org.eclipse.jdt.internal.core.hierarchy.TypeHierarchy.refresh(TypeHierarchy.java:1263)
+	at org.eclipse.jdt.internal.core.CreateTypeHierarchyOperation.executeOperation(CreateTypeHierarchyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.SourceType.newTypeHierarchy(SourceType.java:953)
+	at org.eclipse.jdt.internal.core.SourceType.newTypeHierarchy(SourceType.java:910)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine.addSubtypes(MainMethodSearchEngine.java:125)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine.searchMainMethods(MainMethodSearchEngine.java:102)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine$1.run(MainMethodSearchEngine.java:162)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+
+!ENTRY org.eclipse.jdt.core 4 0 2026-10-24 14:16:04.483
+!MESSAGE Error filtering index locations based on qualifier.
+!STACK 0
+java.io.IOException: The system cannot find the path specified
+	at java.base/java.io.WinNTFileSystem.createFileExclusively0(Native Method)
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(WinNTFileSystem.java:542)
+	at java.base/java.io.File.createNewFile(File.java:949)
+	at org.eclipse.jdt.internal.core.index.FileIndexLocation.createNewFile(FileIndexLocation.java:52)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.initialize(DiskIndex.java:438)
+	at org.eclipse.jdt.internal.core.index.Index.<init>(Index.java:246)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.loadMetaIndexIfNeeded(IndexManager.java:1624)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.findMatchingIndexNames(IndexManager.java:1541)
+	at org.eclipse.jdt.internal.core.search.IndexSelector.getIndexLocations(IndexSelector.java:307)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.selectIndexURLs(JavaSearchParticipant.java:168)
+	at org.eclipse.jdt.internal.core.search.PatternSearchJob.getIndexes(PatternSearchJob.java:218)
+	at org.eclipse.jdt.internal.core.search.SubTypeSearchJob.getIndexes(SubTypeSearchJob.java:51)
+	at org.eclipse.jdt.internal.core.search.PatternSearchJob.ensureReadyToRun(PatternSearchJob.java:131)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.performConcurrentJob(JobManager.java:268)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.legacySearchAllPossibleSubTypes(IndexBasedHierarchyBuilder.java:578)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.searchAllPossibleSubTypes(IndexBasedHierarchyBuilder.java:479)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.determinePossibleSubTypes(IndexBasedHierarchyBuilder.java:444)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.build(IndexBasedHierarchyBuilder.java:144)
+	at org.eclipse.jdt.internal.core.hierarchy.TypeHierarchy.compute(TypeHierarchy.java:305)
+	at org.eclipse.jdt.internal.core.hierarchy.TypeHierarchy.refresh(TypeHierarchy.java:1263)
+	at org.eclipse.jdt.internal.core.CreateTypeHierarchyOperation.executeOperation(CreateTypeHierarchyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.SourceType.newTypeHierarchy(SourceType.java:953)
+	at org.eclipse.jdt.internal.core.SourceType.newTypeHierarchy(SourceType.java:910)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine.addSubtypes(MainMethodSearchEngine.java:125)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine.searchMainMethods(MainMethodSearchEngine.java:102)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine$1.run(MainMethodSearchEngine.java:162)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+
+!ENTRY org.eclipse.jdt.core 4 0 2026-10-24 14:16:04.484
+!MESSAGE The system cannot find the path specified
+!STACK 0
+java.io.IOException: The system cannot find the path specified
+	at java.base/java.io.WinNTFileSystem.createFileExclusively0(Native Method)
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(WinNTFileSystem.java:542)
+	at java.base/java.io.File.createNewFile(File.java:949)
+	at org.eclipse.jdt.internal.core.index.FileIndexLocation.createNewFile(FileIndexLocation.java:52)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.initialize(DiskIndex.java:438)
+	at org.eclipse.jdt.internal.core.index.Index.<init>(Index.java:246)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.loadMetaIndexIfNeeded(IndexManager.java:1624)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.getMetaIndex(IndexManager.java:1705)
+	at org.eclipse.jdt.internal.core.search.SubTypeSearchJob.getIndexes(SubTypeSearchJob.java:41)
+	at org.eclipse.jdt.internal.core.search.PatternSearchJob.execute(PatternSearchJob.java:141)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.performConcurrentJob(JobManager.java:383)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.legacySearchAllPossibleSubTypes(IndexBasedHierarchyBuilder.java:578)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.searchAllPossibleSubTypes(IndexBasedHierarchyBuilder.java:479)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.determinePossibleSubTypes(IndexBasedHierarchyBuilder.java:444)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.build(IndexBasedHierarchyBuilder.java:144)
+	at org.eclipse.jdt.internal.core.hierarchy.TypeHierarchy.compute(TypeHierarchy.java:305)
+	at org.eclipse.jdt.internal.core.hierarchy.TypeHierarchy.refresh(TypeHierarchy.java:1263)
+	at org.eclipse.jdt.internal.core.CreateTypeHierarchyOperation.executeOperation(CreateTypeHierarchyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.SourceType.newTypeHierarchy(SourceType.java:953)
+	at org.eclipse.jdt.internal.core.SourceType.newTypeHierarchy(SourceType.java:910)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine.addSubtypes(MainMethodSearchEngine.java:125)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine.searchMainMethods(MainMethodSearchEngine.java:102)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine$1.run(MainMethodSearchEngine.java:162)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+
+!ENTRY org.eclipse.jdt.core 4 0 2026-10-24 14:16:04.485
+!MESSAGE Error filtering index locations based on qualifier.
+!STACK 0
+java.io.IOException: The system cannot find the path specified
+	at java.base/java.io.WinNTFileSystem.createFileExclusively0(Native Method)
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(WinNTFileSystem.java:542)
+	at java.base/java.io.File.createNewFile(File.java:949)
+	at org.eclipse.jdt.internal.core.index.FileIndexLocation.createNewFile(FileIndexLocation.java:52)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.initialize(DiskIndex.java:438)
+	at org.eclipse.jdt.internal.core.index.Index.<init>(Index.java:246)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.loadMetaIndexIfNeeded(IndexManager.java:1624)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.findMatchingIndexNames(IndexManager.java:1541)
+	at org.eclipse.jdt.internal.core.search.IndexSelector.getIndexLocations(IndexSelector.java:307)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.selectIndexURLs(JavaSearchParticipant.java:168)
+	at org.eclipse.jdt.internal.core.search.PatternSearchJob.getIndexes(PatternSearchJob.java:218)
+	at org.eclipse.jdt.internal.core.search.SubTypeSearchJob.getIndexes(SubTypeSearchJob.java:51)
+	at org.eclipse.jdt.internal.core.search.PatternSearchJob.execute(PatternSearchJob.java:141)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.performConcurrentJob(JobManager.java:383)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.legacySearchAllPossibleSubTypes(IndexBasedHierarchyBuilder.java:578)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.searchAllPossibleSubTypes(IndexBasedHierarchyBuilder.java:479)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.determinePossibleSubTypes(IndexBasedHierarchyBuilder.java:444)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.build(IndexBasedHierarchyBuilder.java:144)
+	at org.eclipse.jdt.internal.core.hierarchy.TypeHierarchy.compute(TypeHierarchy.java:305)
+	at org.eclipse.jdt.internal.core.hierarchy.TypeHierarchy.refresh(TypeHierarchy.java:1263)
+	at org.eclipse.jdt.internal.core.CreateTypeHierarchyOperation.executeOperation(CreateTypeHierarchyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.SourceType.newTypeHierarchy(SourceType.java:953)
+	at org.eclipse.jdt.internal.core.SourceType.newTypeHierarchy(SourceType.java:910)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine.addSubtypes(MainMethodSearchEngine.java:125)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine.searchMainMethods(MainMethodSearchEngine.java:102)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine$1.run(MainMethodSearchEngine.java:162)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+
+!ENTRY org.eclipse.jdt.core 4 0 2026-10-24 14:26:42.379
+!MESSAGE The system cannot find the path specified
+!STACK 0
+java.io.IOException: The system cannot find the path specified
+	at java.base/java.io.WinNTFileSystem.createFileExclusively0(Native Method)
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(WinNTFileSystem.java:542)
+	at java.base/java.io.File.createNewFile(File.java:949)
+	at org.eclipse.jdt.internal.core.index.FileIndexLocation.createNewFile(FileIndexLocation.java:52)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.initialize(DiskIndex.java:438)
+	at org.eclipse.jdt.internal.core.index.Index.<init>(Index.java:246)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.loadMetaIndexIfNeeded(IndexManager.java:1624)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.getMetaIndex(IndexManager.java:1705)
+	at org.eclipse.jdt.internal.core.search.SubTypeSearchJob.getIndexes(SubTypeSearchJob.java:41)
+	at org.eclipse.jdt.internal.core.search.PatternSearchJob.ensureReadyToRun(PatternSearchJob.java:131)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.performConcurrentJob(JobManager.java:268)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.legacySearchAllPossibleSubTypes(IndexBasedHierarchyBuilder.java:578)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.searchAllPossibleSubTypes(IndexBasedHierarchyBuilder.java:479)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.determinePossibleSubTypes(IndexBasedHierarchyBuilder.java:444)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.build(IndexBasedHierarchyBuilder.java:144)
+	at org.eclipse.jdt.internal.core.hierarchy.TypeHierarchy.compute(TypeHierarchy.java:305)
+	at org.eclipse.jdt.internal.core.hierarchy.TypeHierarchy.refresh(TypeHierarchy.java:1263)
+	at org.eclipse.jdt.internal.core.CreateTypeHierarchyOperation.executeOperation(CreateTypeHierarchyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.SourceType.newTypeHierarchy(SourceType.java:953)
+	at org.eclipse.jdt.internal.core.SourceType.newTypeHierarchy(SourceType.java:910)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine.addSubtypes(MainMethodSearchEngine.java:125)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine.searchMainMethods(MainMethodSearchEngine.java:102)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine$1.run(MainMethodSearchEngine.java:162)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+
+!ENTRY org.eclipse.jdt.core 4 0 2026-10-24 14:26:42.381
+!MESSAGE Error filtering index locations based on qualifier.
+!STACK 0
+java.io.IOException: The system cannot find the path specified
+	at java.base/java.io.WinNTFileSystem.createFileExclusively0(Native Method)
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(WinNTFileSystem.java:542)
+	at java.base/java.io.File.createNewFile(File.java:949)
+	at org.eclipse.jdt.internal.core.index.FileIndexLocation.createNewFile(FileIndexLocation.java:52)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.initialize(DiskIndex.java:438)
+	at org.eclipse.jdt.internal.core.index.Index.<init>(Index.java:246)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.loadMetaIndexIfNeeded(IndexManager.java:1624)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.findMatchingIndexNames(IndexManager.java:1541)
+	at org.eclipse.jdt.internal.core.search.IndexSelector.getIndexLocations(IndexSelector.java:307)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.selectIndexURLs(JavaSearchParticipant.java:168)
+	at org.eclipse.jdt.internal.core.search.PatternSearchJob.getIndexes(PatternSearchJob.java:218)
+	at org.eclipse.jdt.internal.core.search.SubTypeSearchJob.getIndexes(SubTypeSearchJob.java:51)
+	at org.eclipse.jdt.internal.core.search.PatternSearchJob.ensureReadyToRun(PatternSearchJob.java:131)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.performConcurrentJob(JobManager.java:268)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.legacySearchAllPossibleSubTypes(IndexBasedHierarchyBuilder.java:578)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.searchAllPossibleSubTypes(IndexBasedHierarchyBuilder.java:479)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.determinePossibleSubTypes(IndexBasedHierarchyBuilder.java:444)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.build(IndexBasedHierarchyBuilder.java:144)
+	at org.eclipse.jdt.internal.core.hierarchy.TypeHierarchy.compute(TypeHierarchy.java:305)
+	at org.eclipse.jdt.internal.core.hierarchy.TypeHierarchy.refresh(TypeHierarchy.java:1263)
+	at org.eclipse.jdt.internal.core.CreateTypeHierarchyOperation.executeOperation(CreateTypeHierarchyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.SourceType.newTypeHierarchy(SourceType.java:953)
+	at org.eclipse.jdt.internal.core.SourceType.newTypeHierarchy(SourceType.java:910)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine.addSubtypes(MainMethodSearchEngine.java:125)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine.searchMainMethods(MainMethodSearchEngine.java:102)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine$1.run(MainMethodSearchEngine.java:162)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+
+!ENTRY org.eclipse.jdt.core 4 0 2026-10-24 14:26:42.382
+!MESSAGE The system cannot find the path specified
+!STACK 0
+java.io.IOException: The system cannot find the path specified
+	at java.base/java.io.WinNTFileSystem.createFileExclusively0(Native Method)
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(WinNTFileSystem.java:542)
+	at java.base/java.io.File.createNewFile(File.java:949)
+	at org.eclipse.jdt.internal.core.index.FileIndexLocation.createNewFile(FileIndexLocation.java:52)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.initialize(DiskIndex.java:438)
+	at org.eclipse.jdt.internal.core.index.Index.<init>(Index.java:246)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.loadMetaIndexIfNeeded(IndexManager.java:1624)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.getMetaIndex(IndexManager.java:1705)
+	at org.eclipse.jdt.internal.core.search.SubTypeSearchJob.getIndexes(SubTypeSearchJob.java:41)
+	at org.eclipse.jdt.internal.core.search.PatternSearchJob.execute(PatternSearchJob.java:141)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.performConcurrentJob(JobManager.java:383)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.legacySearchAllPossibleSubTypes(IndexBasedHierarchyBuilder.java:578)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.searchAllPossibleSubTypes(IndexBasedHierarchyBuilder.java:479)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.determinePossibleSubTypes(IndexBasedHierarchyBuilder.java:444)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.build(IndexBasedHierarchyBuilder.java:144)
+	at org.eclipse.jdt.internal.core.hierarchy.TypeHierarchy.compute(TypeHierarchy.java:305)
+	at org.eclipse.jdt.internal.core.hierarchy.TypeHierarchy.refresh(TypeHierarchy.java:1263)
+	at org.eclipse.jdt.internal.core.CreateTypeHierarchyOperation.executeOperation(CreateTypeHierarchyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.SourceType.newTypeHierarchy(SourceType.java:953)
+	at org.eclipse.jdt.internal.core.SourceType.newTypeHierarchy(SourceType.java:910)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine.addSubtypes(MainMethodSearchEngine.java:125)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine.searchMainMethods(MainMethodSearchEngine.java:102)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine$1.run(MainMethodSearchEngine.java:162)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+
+!ENTRY org.eclipse.jdt.core 4 0 2026-10-24 14:26:42.384
+!MESSAGE Error filtering index locations based on qualifier.
+!STACK 0
+java.io.IOException: The system cannot find the path specified
+	at java.base/java.io.WinNTFileSystem.createFileExclusively0(Native Method)
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(WinNTFileSystem.java:542)
+	at java.base/java.io.File.createNewFile(File.java:949)
+	at org.eclipse.jdt.internal.core.index.FileIndexLocation.createNewFile(FileIndexLocation.java:52)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.initialize(DiskIndex.java:438)
+	at org.eclipse.jdt.internal.core.index.Index.<init>(Index.java:246)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.loadMetaIndexIfNeeded(IndexManager.java:1624)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.findMatchingIndexNames(IndexManager.java:1541)
+	at org.eclipse.jdt.internal.core.search.IndexSelector.getIndexLocations(IndexSelector.java:307)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.selectIndexURLs(JavaSearchParticipant.java:168)
+	at org.eclipse.jdt.internal.core.search.PatternSearchJob.getIndexes(PatternSearchJob.java:218)
+	at org.eclipse.jdt.internal.core.search.SubTypeSearchJob.getIndexes(SubTypeSearchJob.java:51)
+	at org.eclipse.jdt.internal.core.search.PatternSearchJob.execute(PatternSearchJob.java:141)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.performConcurrentJob(JobManager.java:383)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.legacySearchAllPossibleSubTypes(IndexBasedHierarchyBuilder.java:578)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.searchAllPossibleSubTypes(IndexBasedHierarchyBuilder.java:479)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.determinePossibleSubTypes(IndexBasedHierarchyBuilder.java:444)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.build(IndexBasedHierarchyBuilder.java:144)
+	at org.eclipse.jdt.internal.core.hierarchy.TypeHierarchy.compute(TypeHierarchy.java:305)
+	at org.eclipse.jdt.internal.core.hierarchy.TypeHierarchy.refresh(TypeHierarchy.java:1263)
+	at org.eclipse.jdt.internal.core.CreateTypeHierarchyOperation.executeOperation(CreateTypeHierarchyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)
+	at org.eclipse.jdt.internal.core.SourceType.newTypeHierarchy(SourceType.java:953)
+	at org.eclipse.jdt.internal.core.SourceType.newTypeHierarchy(SourceType.java:910)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine.addSubtypes(MainMethodSearchEngine.java:125)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine.searchMainMethods(MainMethodSearchEngine.java:102)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine$1.run(MainMethodSearchEngine.java:162)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-24 14:27:01.890
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-24 14:27:01.890
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-24 14:27:01.890
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-24 14:27:01.890
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-24 14:27:41.229
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-24 14:27:41.229
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-24 14:27:41.229
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-24 14:27:41.230
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-10-24 14:30:58.724
+!MESSAGE DelegatingStreamConnectionProvider - Stopping Boot LS
